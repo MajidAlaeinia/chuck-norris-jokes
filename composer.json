@@ -1,0 +1,25 @@
+{
+    "name": "majidalaeinia/chuck-norris-jokes",
+    "description": "Chuck Norris Jokes.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Majid Alaeinia",
+            "email": "alaeinia.majid@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MajidAlaeinia\\ChuckNorrisJokes\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MajidAlaeinia\\ChuckNorrisJokes\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
